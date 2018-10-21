@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+}
+
+.fondo-oscuro {
+    background-color: #252a2e;
+    padding: 25px 30px 25px 30px;
+}
+
+.fondo-claro {
+    background-color: white;
+    padding: 25px 30px 25px 30px;
+}
+
+.fondo-azul {
+    background-color: #00bff0;
+    padding: 25px 30px 25px 30px;
+}
+
+.text-normal-menu-white {
+    color: white;
+    font-size: 1.4rem;
+    margin: 0 1.5rem
+}
+
+.item-menu-princ {
+    color: black;
+    text-decoration:none; 
+    font-weight: 600; 
+    font-size: 1.8rem; 
+    margin-left: 3rem;
+}
+
+.text-small-white {
+    color: white;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.text-middle-white {
+    color: white;
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+.text-middle-black {
+    color: black;
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+}
+
+.btn-black:hover {
+    background-color: #a7a6a6;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #0086cf;
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: #2e607b;
+    color: white;
+}
+
+.menu-active {
+    color: #00bff0;
+}
+
+.item-menu-princ:hover {
+    color: #00bff0;
+    text-decoration:none; 
+}
+
+/* MULTIPLE CAROULSEL */
+.MultiCarousel { 
+    float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; 
+}
+.MultiCarousel .MultiCarousel-inner { 
+    transition: 1s ease all; float: left; 
+}
+.MultiCarousel .MultiCarousel-inner .item { 
+    float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div { 
+    text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+    position:absolute; border-radius:50%;top:calc(50% - 20px); 
+}
+.MultiCarousel .leftLst { 
+    left: 1rem; 
+}
+.MultiCarousel .rightLst { 
+    right: 1rem; 
+}
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+    pointer-events: none; background:#ccc; 
+}
+
+.nav-tabs li a{
+    background-color: transparent; color: #0086cd; font-size: 2rem;  font-weight: 600;
+}
+
+.nav-tabs li a:hover {
+    background-color: #0086cd !important; color: white !important; font-size: 2rem;  font-weight: 600;
+}
+
+.nav-tabs .active a {
+    background-color: #0086cd !important; color: white !important; font-size: 2rem;  font-weight: 600;
+}
